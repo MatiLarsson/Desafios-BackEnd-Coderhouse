@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Cerveza",
+    "price": 300,
+    "thumbnail": "https://res.cloudinary.com/abillionveg/image/upload/v1609900243/lc6orfuuimbnwpqzkpcy.jpg",
+    "id": 1
+  },
+  {
+    "title": "Gaseosa",
+    "price": 250,
+    "thumbnail": "https://www.clubmarket.com.ar/wp-content/uploads/coca-cola-pet-x-2.5l.jpg",
+    "id": 2
+  },
+  {
+    "title": "Gatorade",
+    "price": 270,
+    "thumbnail": "http://cdn.shopify.com/s/files/1/0254/2947/5433/products/gatorade-cool-blue-125L-siempreencasa_1000x.png?v=1617807439",
+    "id": 3
+  }
+]
