@@ -4,9 +4,9 @@ Desafío de clase 10, curso Back End de Coderhouse.
 
 Se crea un servidor en el puerto 8080 con express para cada uno de los motores de plantillas con las siguentes funcionalidades:
 
-. GET '/' -> devuelve un html con un formulario para cargar un nuevo producto a la base de datos realizando una petición POST a la ruta '/productos' y enviando los datos en forma de form-data.
+- GET '/' -> devuelve un html con un formulario para cargar un nuevo producto a la base de datos realizando una petición POST a la ruta '/productos' y enviando los datos en forma de form-data.
 
-. GET '/productos' -> devuelve un html con una lista de los productos cargados en la base de datos.
+- GET '/productos' -> devuelve un html con una lista de los productos cargados en la base de datos.
 
 
 Todas las funcionalidades pueden accederse desde el navegador con la interfaz de front end.
