@@ -14,21 +14,3 @@ Todas las funcionalidades pueden accederse desde el navegador con la interfaz de
 Para la edición del archivo de productos se utiliza el módulo fs nativo de node, el cual interactúa con el archivo 'productos.json'.
 
 Se utiliza el módulo multer para subir archivos.
-
-# Uso
-
-git clone https://github.com/MatiLarsson/Curso-BackEnd-Coderhouse/tree/main/Clase_10_Desafio/motores-de-plantillas
-
-Ingresar a la carpeta del motor deseado ejecutando los comandos:
-
-cd ejs
-
-cd handlebars
-
-cd pug
-
-Instalar todas las dependencias requeridas:
-
-npm i
-
-npm start (requiere tener instalado nodemon) para correr el servidor en el puerto 8080
