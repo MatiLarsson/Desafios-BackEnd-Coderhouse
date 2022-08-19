@@ -1,12 +1,14 @@
-DESAFIO CLASE 18 MONGOSH
+# DESAFIO CLASE 18 MONGOSH
 
 Se crea la base de datos ecommerce con dos colecciones (mensajes y productos):
 
 use ecommerce
+
 db.createCollection("chats")
+
 db.createCollection("products")
 
-Puntos 1 y 2:
+#### Puntos 1 y 2:
 
 db.chats.insertMany([
   {
@@ -124,20 +126,20 @@ db.products.insertMany([
   }
 ])
 
-Punto 3:
+#### Punto 3:
 
 db.chats.find()
 
 db.products.find()
 
-Punto 4:
+#### Punto 4:
 
 db.chats.estimatedDocumentCount()
 db.products.estimatedDocumentCount()
 
-Punto 5:
+#### Punto 5:
 
-A)
+##### A)
 
 db.products.insertOne({
   title: "Producto 11",
@@ -145,7 +147,7 @@ db.products.insertOne({
   thumbnail: "https://picsum.photos/200/300"
 })
 
-B)
+##### B)
 
 db.products.find({"price": {$lt: 1000}})
 
@@ -155,15 +157,15 @@ db.products.find({"price": {$gt: 3000}})
 
 db.products.find({}, {"title": 1}).sort({price: 1}).skip(2).limit(1)
 
-C)
+##### C)
 
 db.products.updateMany({}, {$set: {"stock": 100}})
 
-D)
+##### D)
 
 db.products.updateMany({"price": {$gt: 4000}}, {$set: {"stock": 0}})
 
-E)
+##### E)
 
 db.products.deleteMany({"price": {$lt: 1000}})
 
